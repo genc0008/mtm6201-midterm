@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mtm6201-midterm about us page -berk gencturk</title>
+
+    <script src="https://kit.fontawesome.com/14c745b3e9.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    
+
+
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+      <ul>
+          <li id="navbar-logo">
+              <a href="index.html">
+                  <img src="images/logo.png" alt="logo">
+              </a>
+          </li>
+          <!--the page you are on is active class, hover and active class change color to pink on css stylesheet-->
+          <li class="navbar-link"><a href="index.html">Home</a></li>
+          <li class="navbar-link"><a class="active" href="aboutus.html">About Us</a></li>
+          <li class="navbar-link"><a href="#">Order</a></li>
+          <li class="navbar-link"><a href="contactus.html">Contact Us</a></li>
+      </ul>
+  </nav>
+<main>
+    <section id="about-us-section">
+        <div id="about-us-content">
+            <picture>
+                <!--image optimization for different sizes-->
+                <source srcset="images/cupcakes2-320_x_213.jpg,
+                images/cupcakes2-640_x_426.jpg 2x,
+                images/cupcakes2-960_x_640.jpg 3x"
+                media="(max-width: 320px)"/>
+
+                <source srcset="images/cupcakes2-640_x_426.jpg,
+                images/cupcakes2-960_x_640.jpg 2x,
+                images/cupcakes2-1920_x_1280.jpg 3x"
+                media="(max-width: 960px)"/>
+
+                <source srcset="images/cupcakes2-1920_x_1280.jpg"
+                media="(min-width: 960px)"/>
+                <img src="images/cupcakes2.jpg" alt="cupcakes2">
+            </picture>
+        <div id="about-us-text-container">
+            <h2>About Us</h2>
+            <p>
+                Ramona's Cakery began in 2005 in Nepean, Ottawa. We've always had a passion for baking and have been partnering with wedding coordinators
+                for quite a while. Ramona's Cakery specializes in Designer Cake Decoration. and provide custom cakes for events such as weddings.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim.
+            </p>
+            <a class="link-button" href="#">View our Google Reviews! <i class="fa-solid fa-cake-candles"></i></a>
+        </div>
+    </div>
+    </section>
+    <section id="about-us-section-2">
+        <div id="about-us-content-2">
+            <picture>
+                <!--image optimization for different sizes-->
+                <source srcset="images/cupcakes3-320_x_213.jpg,
+                images/cupcakes3-640_x_426.jpg 2x,
+                images/cupcakes3-960_x_640.jpg 3x"
+                media="(max-width: 320px)"/>
+
+                <source srcset="images/cupcakes3-640_x_426.jpg,
+                images/cupcakes3-960_x_640.jpg 2x,
+                images/cupcakes3-1920_x_1280.jpg 3x"
+                media="(max-width: 960px)"/>
+
+                <source srcset="images/cupcakes3-1920_x_1280.jpg"
+                media="(min-width: 960px)"/>
+                <img src="images/cupcakes3.jpg" alt="cupcakes3">
+            </picture>
+        <div id="about-us-text-container-2">
+            <h2>Our Vision</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim.
+            </p>
+            <a class="link-button" href="#">Read our story! <i class="fa-solid fa-cake-candles"></i></a>
+        </div>
+        </div>
+    </section>
+    <div class=divider>
+    </div>
+
+
+</main>
+
+
+
+<footer>
+    <!--footer also contains links to royalty free image websites used for assignment-->
+        <div class="footer-container">
+                <p>&copy; Ramona's Cakery, 2022</p>
+                <p>All images are taken from <a href="https://unsplash.com">Unsplash</a> and <a href="https://pixabay.com">Pixabay</a></p>
+        </div>
+</footer>
+</body>
+</html>

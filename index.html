@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mtm6201-midterm - Berk Gencturk</title>
+
+    <script src="https://kit.fontawesome.com/14c745b3e9.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    
+
+
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+      <ul>
+          <li id="navbar-logo">
+              <a href="index.html">
+                  <img src="images/logo.png" alt="logo">
+              </a>
+              <!--the page you are on is active class, hover and active class change color to pink on css stylesheet-->
+          </li>
+          <li class="navbar-link"><a class="active" href="index.html">Home</a></li>
+          <li class="navbar-link"><a href="aboutus.html">About Us</a></li>
+          <li class="navbar-link"><a href="#">Order</a></li>
+          <li class="navbar-link"><a href="contactus.html">Contact Us</a></li>
+      </ul>
+  </nav>
+  <main>
+      <section id="intro-section">
+        <!-- intro section banner image is in stylesheet-->
+          <div>
+              <h1>Weddings, Birthdays, Anniversaries, we do it all!</h1>
+              <p>
+                  Here at Ramona's Cakery our dedicated team of expert cake decorators, chefs and designers are ready to customize and design the perfect cake for any event!
+              </p>
+              <a class="link-button" href="#">CREATE YOUR OWN <i class="fa-solid fa-cake-candles"></i> </a> 
+          </div>
+      </section>
+      <div class=divider>
+        <!--divider is just for organizing in css easier-->
+    </div>
+      <section id="card-section">
+            <section id="cakes-row">
+                    <article class="card">
+                        <picture>
+                            <!--image optimization for different sizes-->
+                            <source srcset="images/wedding-cake-320_x_213.jpg,
+                            images/wedding-cake-640_x_426.jpg 2x,
+                            images/wedding-cake-960_x_640.jpg 3x"
+                            media="(max-width: 320px)"/>
+
+                            <source srcset="images/wedding-cake-640_x_426.jpg,
+                            images/wedding-cake-960_x_640.jpg 2x,
+                            images/wedding-cake-1920_x_1280.jpg 3x"
+                            media="(max-width: 960px)"/>
+
+                            <source srcset="images/wedding-cake-1920_x_1280.jpg"
+                            media="(min-width: 960px)"/>
+                            <img src="images/wedding-cake.jpg" alt="wedding-cake">
+                        </picture>
+                        <div class="card-text-container">
+                            <h3>Wedding Cake Options</h3>
+                            <p>
+                                A special occassion deserves a special cake baked, designed and decorated by our team.
+                            </p>
+                            <a class="link-button" href="#">customize! <i class="fa-solid fa-cake-candles"></i></a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <!--image optimization for different sizes-->
+                            <source srcset="images/birthday-cake-320_x_214.jpg,
+                            images/birthday-cake-640_x_428.jpg 2x,
+                            images/birthday-cake-960_x_652.jpg 3x"
+                            media="(max-width: 320px)"/>
+
+                            <source srcset="images/birthday-cake-640_x_428.jpg,
+                            images/birthday-cake-960_x_652.jpg 2x,
+                            images/birthday-cake-1920_x_1285.jpg 3x"
+                            media="(max-width: 960px)"/>
+
+                            <source srcset="images/birthday-cake-1920_x_1285.jpg"
+                            media="(min-width: 960px)"/>
+
+                            <img src="images/birthday-cake.jpg" alt="birthday-cake">
+                        </picture>
+                        <div class="card-text-container">
+                            <h3>Birthday Cake Options</h3>
+                            <p>
+                                Get yourself a fully customized birthday cake designed by one of our designers! 
+                            </p>
+                            <a class="link-button" href="#">customize! <i class="fa-solid fa-cake-candles"></i></a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <!--image optimization for different sizes-->
+                            <source srcset="images/cupcakes-320_x_213.jpg,
+                            images/cupcakes-640_x_426.jpg 2x,
+                            images/cupcakes-960_x_640.jpg 3x"
+                            media="(max-width: 320px)"/>
+
+                            <source srcset="images/cupcakes-640_x_426.jpg,
+                            images/cupcakes-960_x_640.jpg 2x,
+                            images/cupcakes-1920_x_1280.jpg 3x"
+                            media="(max-width: 960px)"/>
+
+                            <source srcset="images/cupcakes-1920_x_1280.jpg"
+                            media="(min-width: 960px)"/>
+                            <img src="images/cupcakes.jpg" alt="cupcakes">
+                        </picture>
+                        <div class="card-text-container">
+                            <h3>Create Your Own!</h3>
+                            <p>
+                                Do you have something else in mind? We are happy to work with you to create the perfect cake just for you!
+                            </p>
+                            <a class="link-button" href="#">customize! <i class="fa-solid fa-cake-candles"></i></a>
+                        </div>
+                    </article>
+            </section>
+      </section>
+        <div class=divider>
+        <!--divider is just for organizing in css easier-->
+            <h3>Our Team of Gourmet Cake Decorators</h3>
+        </div>
+      <section id="team-row">
+        <!--team row also uses card class-->
+        <article class="card">
+            <picture>
+                <!--image optimization for different sizes-->
+                <source srcset="images/gary-320_x_320.jpg,
+                images/gary-640_x_640.jpg 2x,
+                images/gary-1000_x_1000.jpg 3x"
+                media="(max-width: 320px)"/>
+
+                <source srcset="images/gary-640_x_640.jpg,
+                images/gary-1000_x_1000.jpg 2x"
+                media="(max-width: 1000px)"/>
+
+                <source srcset="images/gary-1000_x_1000.jpg"
+                media="(min-width: 1000px)"/>
+                <img src="images/gary.jpg" alt="gary">
+            </picture>
+            <div class="card-text-container">
+                <h3>Gary</h3>
+                <h5>Head Chef, CO-Owner</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                    Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                    Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                    Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                </p>
+            </div>
+        </article>
+        <article class="card">
+            <picture>
+                <!--image optimization for different sizes-->
+                <source srcset="images/jerry-320_x_320.jpg,
+                images/jerry-640_x_640.jpg 2x,
+                images/jerry-1000_x_1000.jpg 3x"
+                media="(max-width: 320px)"/>
+
+                <source srcset="images/jerry-640_x_640.jpg,
+                images/jerry-1000_x_1000.jpg 2x"
+                media="(max-width: 1000px)"/>
+
+                <source srcset="images/jerry-1000_x_1000.jpg"
+                media="(min-width: 1000px)"/>
+                <img src="images/jerry.jpg" alt="gary">
+            </picture>
+            <div class="card-text-container">
+                <h3>Jerry</h3>
+                <h5> Sous-Chef, CO-Owner</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel iaculis leo.
+                    Duis erat quam, efficitur sed viverra ut, sollicitudin ac enim. 
+                    Etiam at est aliquam, ullamcorper erat eu, aliquet lorem. 
+                    Ut vel dolor iaculis, pharetra dui eget, egestas metus. 
+                </p>
+            </div>
+        </article>
+    </section>
+    <div class=divider>
+        <!--divider is just for organizing in css easier-->
+        <h3>Visit Us!</h3>
+    </div>
+      <section id="contact-section">
+        <!--operation-schedule-container is the time table-->
+          <div class="operation-schedule-container">
+            <h3>Hours</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>8 AM - 9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>8 AM - 9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>8 AM - 9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>8 AM - 9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>8 AM - 11 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9 AM - 5 PM</td>
+                    </tr>
+                    <tr>    
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+          <div class="contact-maps-container">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.6154027603134!2d-75.75898844557365!3d45.348992451330744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04540b77e3bb%3A0x9e246d934b6c6ed!2sAlgonquin%20College%20of%20Applied%20Arts%20and%20Technology!5e0!3m2!1sen!2str!4v1649787847676!5m2!1sen!2str" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+    </section>
+  </main>
+  <footer>
+        <div class="footer-container">
+            <!--footer also contains links to royalty free image websites used for assignment-->
+                <p>&copy; Ramona's Cakery, 2022</p>
+                <p>All images are taken from <a href="https://unsplash.com">Unsplash</a> and <a href="https://pixabay.com">Pixabay</a></p>
+        </div>
+  </footer>
+</body>
+</html>
